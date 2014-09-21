@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header */
+#header-global {
+    box-shadow: 0 1px 5px #666666;
+    -moz-box-shadow: 0 1px 5px #666666;
+    -webkit-box-shadow: 0 1px 5px #666666;
+}
+#header-global img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.header-wrap {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+}
+
+/* Navbar */
+#main-menu {
+    border-top: 1px solid #044062;
+}
+#main-menu ul li img {
+    max-width: 100%;
+    min-width: 27px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+}
+
+/* Content */
+h1 {
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+}
+.img-resp {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 15px auto;
+}
+.title {
+    font-weight: bold;
+}
+.title span {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 5px;
+}
+blockquote p q {
+    font-style: italic;
+}
+blockquote footer cite {
+    font-style: normal;
+}
+
+/* Paper */
+
+.paper-sen.ui-link,
+.paper-sen.ui-link:visited,
+.paper-sen.ui-link:hover,
+.paper-sen.ui-link:active { 
+	text-decoration: none; 
+	color: black; 
+	text-shadow: none; 
+	line-height: 1.75em;
+}
+
+.popup-div  { }
+
+.popup-div .ui-block-a ,
+.popup-div .ui-block-b,
+.popup-div .ui-block-c {
+	padding: 5px;
+}
+
+.highlighter {}
+
+.sen-comments {
+	margin: 10px;
+}
+
+.profile_header {
+	margin: 10px;
+	padding: 1px 10px 20px;
+}
+
+.profile_img {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+
+.paper-padding {
+	padding: 10px;
+}
+
+.article-border {
+	background: #FFFFFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 1px 10px 1px;
+	box-shadow: 0px 1px 5px #000000;
+	-moz-box-shadow: 0px 1px 5px #000000;
+	-webkit-box-shadow: 0px 1px 5px #000000;
+}
+
+.text-mini {
+	font-size: 10px;
+}
+
+.ui-mini.smaller-mini-btn .ui-btn-inner {
+	font-size: 8px;
+	padding: .30em 10px .3em;
+}
+
+.review_img {
+	height:40px; 
+	width:40px;
+	padding: 2px;
+	border: 1px solid #000000;
+}
+
+.review-block {
+	height:45px;
+}
+
+.review-img-block {
+	width:23%;
+	float:left;
+	clear:left;
+}
+
+.review-text-block {
+	width:77%;
+	float:right;
+	clear:right;
+	text-align:left;
+	padding-top: 2px;
+}
+
+.thesis-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #333;
+}
+
+/* Profiles */
+.profile li a img {
+    border: 1px solid #333333;
+    background-color: #FFFFFF;
+    margin: 5px 15px 5px 5px;
+    padding: 5px;
+}
+
+.profile li a h3 {
+    font-weight: bold;
+}
+
+.profile li a p {
+    font-size: 14px;
+}
+
+.profile li a p span {
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.profile .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-thumb {
+    padding-bottom: 15px;
+    padding-left: 110px;
+}
+
+/* HTML Forms */
+.ui-field-contain textarea.ui-input-text {
+    width: 100%; 
+    height: 150px;
+}
+
+/* Ranking Profile */
+.profile-ranking {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 5px 1px #666666;
+    -moz-box-shadow: 0 1px 5px 1px #666666;
+    -webkit-box-shadow: 0 1px 5px 1px #666666;
+}
+.profile-ranking .ui-bar {
+    padding: 10px;
+}
+.profile-ranking .ui-bar span {
+    font-weight: bold;
+}
+.profile-ranking img {
+    background-color: #FFFFFF;
+    border: 1px solid #333333;
+    padding: 5px;
+}
+.resume ul li {
+    font-size: 0.750em;
+}
+.resume ul li span {
+    display: block;
+    font-style: italic;
+}
+
+/* Ranking */
+.breakpoint {
+    text-align: center;
+    background-color: #E5E5E5;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: inset 0 0 10px #666666;
+    -moz-box-shadow: inset 0 0 10px #666666;
+    -webkit-box-shadow: inset 0 0 10px #666666;
+}
+.breakpoint a .ui-bar {
+    height: 110px;
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #5D8A99;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 3px 5px 1px #666666;
+    -moz-box-shadow: 0 3px 5px 1px #666666;
+    -webkit-box-shadow: 0 3px 5px 1px #666666;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#D1D1D1));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #FFFFFF, #d1d1d1);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #FFFFFF, #d1d1d1);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #FFFFFF, #d1d1d1);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #FFFFFF, #d1d1d1);
+}
+.breakpoint a:hover .ui-bar {
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D1D1D1), to(#FFFFFF));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #D1D1D1, #FFFFFF);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #D1D1D1, #FFFFFF);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #D1D1D1, #FFFFFF);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #D1D1D1, #FFFFFF);
+}
+@media all and (max-width: 319px) {
+    .breakpoint .ui-block-a,
+    .breakpoint .ui-block-b,
+    .breakpoint .ui-block-c,
+    .breakpoint .ui-block-d,
+    .breakpoint .ui-block-e {
+        width: 100%;
+        float: none;
+    }
+    .breakpoint .ui-block-a,
+    .breakpoint .ui-block-b,
+    .breakpoint .ui-block-c {
+        margin-bottom: 10px;
+    }
+}
+.breakpoint h2 {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+.breakpoint a img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.breakpoint a:link, a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+.breakpoint a span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #5D8A99;
+}
+
+/* Footer */
+#footer-global {
+    text-align: center;
+    font-size: .625em;
+    padding: 5px;
+}
